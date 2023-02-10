@@ -31,7 +31,6 @@ const Contacts = () => {
             ></textarea>
             <input className="form__submit" type="submit" value="Отправить" />
           </form>
-        
         </div>
       </div>
     </main>

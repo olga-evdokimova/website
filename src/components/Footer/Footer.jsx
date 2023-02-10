@@ -1,10 +1,10 @@
 import React from 'react';
-import m from './Footer.module.scss';
+import  './Footer.scss';
 import Social from './Social/Social';
 
 const Footer = () => {
     return (
-        <footer className={m.footer}>
+        <footer className="footer">
            <Social></Social>  
         </footer>
     )

@@ -1,6 +1,7 @@
 import React from "react";
 import m from "./About.module.scss";
 import img from "../../img/about-02.jpg";
+
 const About = (props) => {
   return (
     <main>
