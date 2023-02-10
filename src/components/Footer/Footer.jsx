@@ -11,7 +11,7 @@ const Footer = () => {
         <Social></Social>
       </div>
       <div className="footer__copy">
-        <span>© 2023 </span>
+        <span>© 2023</span>
         <a href="https://github.com/olga-evdokimova">
           Developed by Olga Evdokimova
         </a>

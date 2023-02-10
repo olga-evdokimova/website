@@ -17,6 +17,20 @@
                 display: block;
                 padding-top: 5px;
             }
+            span:before{
+                display: none;
+            }
+        }
+        span {
+            position: relative;
+            padding-right: 20px;
+            &::before {
+                content: "|";
+                width: 10px;
+                position: absolute;
+                top: 0px;
+               right: 0;
+            }
         }
     }
     h2 {
