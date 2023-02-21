@@ -35,11 +35,11 @@
     font-size: 130px;
     font-weight: bold;
     text-transform: uppercase;
-    padding: 120px 0px 80px;
+    padding: 60px 0px 60px;
     text-align: center;
     @media (max-width: 1200px) {
         font-size: calc(30px + (130 - 30) * ((100vw - 320px) / (1200 - 320)));
-        padding-top: calc(90px + (120 - 90) * ((100vw - 320px) / (1200 - 320)));
-        padding-bottom: calc(15px + (80 - 15) * ((100vw - 320px) / (1200 - 320)));
+        padding-top: calc(30px + (60 - 30) * ((100vw - 320px) / (1200 - 320)));
+        padding-bottom: calc(15px + (60 - 15) * ((100vw - 320px) / (1200 - 320)));
     }
 }

@@ -9,13 +9,12 @@ const Footer = () => {
       <div className="footer__inner container">
         <Logo></Logo>
         <Social></Social>
-
-        <div className="footer__copy">
-          <span>© 2023</span>
-          <a href="https://github.com/olga-evdokimova">
-            Developed by Olga Evdokimova
-          </a>
-        </div>
+      </div>
+      <div className="footer__copy">
+        <span>© 2023</span>
+        <a href="https://github.com/olga-evdokimova">
+          Developed by Olga Evdokimova
+        </a>
       </div>
     </footer>
   );

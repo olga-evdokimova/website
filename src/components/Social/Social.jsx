@@ -12,8 +12,7 @@ const Social = () => {
       
           />
         </svg>
-        Telegram
-      </a>
+        </a>
       <a
         href="https://tenchat.ru/olga_developer?utm_source=17942794-ee25-4d18-944f-0d2ab648ed9e"
         className="social__item"
@@ -31,8 +30,7 @@ const Social = () => {
            
           />
         </svg>
-        TenChat
-      </a>
+    </a>
       <a href="https://github.com/olga-evdokimova" className="social__item">
         <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path
@@ -42,7 +40,6 @@ const Social = () => {
            
           />
         </svg>
-        GitHub
       </a>
     </div>
   );

@@ -2,14 +2,12 @@
     font-size: 18px;
     color: #fff;
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 20px 0 0 10px;
-    @media (max-width: 767px) {
-        padding-top: 30px;
-    }
+   // flex-direction: column;
+    //align-items: flex-start;
+   // padding: 20px 0 0 10px;
+  
     &__item {
-        padding: 10px 10px 10px 0;
+        padding: 10px;
         display: inline-flex;
         align-items: center;
         @media (any-hover: hover) and (any-pointer: fine) {
@@ -25,7 +23,7 @@
         svg {
             width: 30px;
             height: 30px;
-            margin-right: 20px;
+            // margin-right: 20px;
             fill: #fff;
         }
     }

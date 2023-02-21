@@ -45,7 +45,7 @@ let postElements = postData.map((element,key) =>
 const Home = (props) => {
   return (
     <main>
-      <h1 className="title">проекты</h1>
+      <h1 className="title">мои проекты</h1>
       {postElements}
     </main>
   );

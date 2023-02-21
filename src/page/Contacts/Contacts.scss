@@ -1,18 +1,16 @@
 .contacts-wrap {
-    //display: flex;
-    @media (max-width: 767px) {
-        flex-direction: column-reverse;
-    }
+   padding-bottom: 50px;
 }
 
 
 .form {
-    // flex: 0 1 50%;
     width: 50%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-  
+    @media (max-width: 767px) {
+        width: 100%;
+    }
     label {
         padding-bottom: 20px;
     }
