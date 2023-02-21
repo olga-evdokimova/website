@@ -1,8 +1,8 @@
 import React from "react";
-import m from "./Post.module.scss";
+import m from "./Project.module.scss";
 import { NavLink } from "react-router-dom";
 
-const Post = (props) => {
+const Project = (props) => {
   const link = props.to.startsWith("http");
 
   return (
@@ -34,4 +34,4 @@ const Post = (props) => {
     </div>
   );
 };
-export default Post;
+export default Project;

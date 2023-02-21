@@ -1,10 +1,10 @@
 import React from "react";
 import "./Home.scss";
-import Post from "./Post/Post";
 import image1 from "../../img/1.jpg"
 import image2 from "../../img/3.jpg";
 import image3 from "../../img/2.jpg";
 import image4 from "../../img/bg.jpg";
+import Project from "./Project/Project";
 
 let postData = [
   {
@@ -39,12 +39,12 @@ let postData = [
 
   
 let postElements = postData.map((element,key) => 
-  <Post key={key} id={element.id} title={element.title} img={element.img} text={element.text} to={element.to} />
+  <Project key={key} id={element.id} title={element.title} img={element.img} text={element.text} to={element.to} />
 );
 
 const Home = (props) => {
   return (
-    <main>
+    <main></main>
       <h1 className="title">мои проекты</h1>
       {postElements}
     </main>
