@@ -1,9 +1,11 @@
 .footer {
     background-color: #202020;
     width: 100%;
-    padding: 50px 20px;
-    color: #fff;
-    position: relative;
+    &__inner {
+        padding: 50px 20px;
+        color: #fff;
+     position: relative;
+    }
 
     &__copy {
         position: absolute;
@@ -17,7 +19,7 @@
                 display: block;
                 padding-top: 5px;
             }
-            span:before{
+            span:before {
                 display: none;
             }
         }
@@ -29,7 +31,7 @@
                 width: 10px;
                 position: absolute;
                 top: 0px;
-               right: 0;
+                right: 0;
             }
         }
     }

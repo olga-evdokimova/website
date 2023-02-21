@@ -2,7 +2,6 @@ import "./App.scss";
 import "./scss/null.scss";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
-import Nav from "./components/Header/Nav/Nav";
 import Home from "./page/Home/Home";
 import Contacts from "./page/Contacts/Contacts";
 import About from "./page/About/About";
@@ -16,7 +15,7 @@ const App = () => {
     <BrowserRouter>
       <div className="wrapper">
         <Header />
-        <Nav />
+      
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />

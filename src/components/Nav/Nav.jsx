@@ -4,7 +4,6 @@ import m from "./Nav.module.scss";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { useState } from "react";
 
-
 const Nav = () => {
   const [nav, setNav] = useState(false);
   const toggleActive = () => {
